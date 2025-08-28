@@ -11,8 +11,8 @@ const CONTACT_INFO = [
   {
     icon: <PhoneIcon className="h-6 w-6 text-blue-600" />,
     label: 'Phone',
-    value: '+977-1-1234567',
-    href: 'tel:+97711234567',
+    value: '+977-1234567',
+    href: 'tel:+9771234567',
   },
   {
     icon: <MapPinIcon className="h-6 w-6 text-blue-600" />,
@@ -57,6 +57,11 @@ const ContactUs = () => {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-50 to-white py-16 px-2 relative">
+      {/* Added site-wide or page header here */}
+      <header className="max-w-4xl mx-auto mb-8">
+        <h1 className="text-4xl font-extrabold text-blue-700 text-center drop-shadow-sm">Get in Touch with ShoeNP</h1>
+        <p className="text-center text-gray-600 mt-2">We'd love to hear from you! Please fill out the form below and our team will get back to you soon.</p>
+      </header>
       <a href="/" className="fixed top-6 left-6 z-20 flex items-center bg-white shadow-lg rounded-full px-4 py-2 text-gray-700 hover:bg-gray-100 transition border border-gray-200">
         <ArrowLeftIcon className="h-5 w-5 mr-2" /> Home
       </a>

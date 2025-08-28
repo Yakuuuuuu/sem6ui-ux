@@ -50,7 +50,7 @@ const Collections = () => {
       id: 6,
       name: 'Running Collection',
       description: 'High-performance running gear',
-      image: 'https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+      image: 'https://cdn.runrepeat.com/storage/gallery/buying_guide_primary/17/17-best-nike-running-shoes-15275034-960.jpg',
       link: '/search?q=Running'
     }
   ];
